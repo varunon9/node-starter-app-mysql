@@ -23,7 +23,7 @@ router.get('/signup', (req, res, next) => {
 
 router.post('/login', (req, res, next) => {
 	const params = req.body;
-	userService.getUser(params)
+	userService.loginUser(params)
 		.then(user => {
 			user.keepMeLoggedIn = params.keepMeLoggedIn;
 			const token = utilityService.getToken(user);
