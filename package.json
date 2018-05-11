@@ -1,0 +1,36 @@
+{
+  "name": "node-starter-app-mysql",
+  "version": "1.0.0",
+  "description": "A boilerplate for Node.js web applications.",
+  "main": "bin/www",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/varunon9/node-starter-app-mysql.git"
+  },
+  "keywords": [
+    "nodejs-boilerplate",
+    "semantic-ui",
+    "hello-world-node"
+  ],
+  "author": "Varun Kumar <varunon9@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/varunon9/node-starter-app-mysql/issues"
+  },
+  "homepage": "https://github.com/varunon9/node-starter-app-mysql#readme",
+  "dependencies": {
+    "bcrypt": "^2.0.1",
+    "body-parser": "^1.18.2",
+    "cookie-parser": "^1.4.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "jsonwebtoken": "^8.2.1",
+    "mysql2": "^1.5.3",
+    "nodemailer": "^4.6.4",
+    "request": "^2.85.0",
+    "sequelize": "^4.37.7"
+  }
+}
