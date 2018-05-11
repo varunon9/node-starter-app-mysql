@@ -1,7 +1,7 @@
 {
     "development": {
         "username": "root",
-        "password": "L1fe_c00l",
+        "password": "password123",
         "database": "nodeStarterAppMysql",
         "host": "localhost",
         "dialect": "mysql",
@@ -9,7 +9,7 @@
     },
     "production": {
         "username": "root",
-        "password": "L1fe_c00l",
+        "password": "password123",
         "database": "nodeStarterAppMysql",
         "host": "localhost",
         "dialect": "mysql",
